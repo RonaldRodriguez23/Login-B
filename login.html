@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <title>Login Con Bootstrap</title>
+    <script src="https://kit.fontawesome.com/5799ed81df.js" crossorigin="anonymous"></script>
+    <style>
+        body{
+            background: linear-gradient( #f7cdff,#69f5f7);
+        }
+        .bg{
+            background-image: url(Logo\ Pricipal.png);
+            background-position: center;
+        }
+    </style>
+</head>
+<body>
+    <div class="container w-100 shadow">
+        <div class="row align-items-stretch">
+            <div class="col bg d-none d-lg-block col-md-5 col-lg-5 col-xl-6">
+            </div>
+            <div class="col bg-white">
+                <div class="text-end">
+                    <img src="Logo Pricipal.png" width="80" alt="logo">
+                </div>
+                <h2 class="fw-bold text-center pt-5 mb-3">Bienvenido</h2>
+            <!--login-->
+        <form action="#">
+            <div class="mb-3">
+                <label for="email" class="form-label">Correo Electronico</label>
+                <input type="email" class="form-control" name="email">
+            </div>
+            <div class="mb-3">
+                <label for="password" class="form-label">password</label>
+                <input type="password" class="form-control" name="password">
+            </div>
+            <div class="mb-3 form-check">
+                <input type="checkbox" name="connected" class="form-check-input">
+                <label for="connected" class="form-check-label">Recuerdame</label>
+            </div>
+            <div class="d-grid">
+                <button type="submit" class="btn btn-primary">Iniciar Sesión</button>
+                <div class="my-3">
+                    <span>No tienes Cuenta? <a href="#">Registrate</a></span><br>
+                    <span><a href="#"> Recuperar Cuenta</a>  </span>
+
+                </div>
+
+            </div>
+
+        </form>
+
+        <!--Login Redes sociales-->
+        <div class="container w-auto my-2">
+            <div class="row">
+                <div class="col-12">Iniciar Sesión</div>
+            </div>
+            <div class="row">
+                <button class="btn btn-outline-primary w-100 my-1">
+                    <div class="row">
+                        <div class="col-2">
+                            <i class="fa-brands fa-facebook"></i>
+                        </div>
+                        <div class="col-10">Facebook</div>
+                    </div>
+                </button>
+            </div>
+            <div class="row">
+                <button class="btn btn-outline-danger w-100 my-1">
+                    <div class="row">
+                        <div class="col-2">
+                            <i class="fa-brands fa-google" style="color: #ec0909;"></i>
+                        </div>
+                        <div class="col-10">Google</div>
+                    </div>
+                </button>
+            </div>
+
+        </div>
+        </div>
+        </div>
+
+    </div>
+
+<script src="js/bootstrap.min.js"></script>
+</body>
+</html>
